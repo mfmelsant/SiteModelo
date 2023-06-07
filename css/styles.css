@@ -175,11 +175,11 @@ section.best-sellers hr{
 
 section.best-sellers h2{
     text-align: center;
-    font-size:34px;
+    font-size:36px;
     letter-spacing: 0.85px;
     line-height: 42px;
     font-weight: normal;
-    margin: 0 0 14px 0;
+    margin: 0 0 16px 0;
 }
 
 section.best-sellers .product-slider{
@@ -538,6 +538,35 @@ footer .copyright-text{
     section.best-sellers .product-slider .product{
         min-width: 220px;
         margin: 17px 8px;
+    }
+
+    section.newsletter {
+        padding: 44px 0;
+        margin: 60px auto;
+    }
+
+    section.newsletter form input{
+        max-width: 65%;
+    }
+    
+    section.newsletter form button{
+        max-width: 35%;
+    }
+
+    footer .bottom-nav .container{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    footer .bottom-nav ul{
+        text-align: center;
+        margin-bottom: 32px;
+    }
+    
+    footer .bottom-nav ul:last-of-type{
+        margin-bottom: 0;
     }
 
 }
